@@ -1,6 +1,7 @@
 import express from "express";
 
 const app = express();
+
 const hoje = new Date();
 console.log(hoje.toLocaleDateString()); // 1/1/2022
 
